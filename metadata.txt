@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=LineComparison
+qgisMinimumVersion=3.0
+description=This plugin supports line-based accuracy assessment by comparing two line layers. Both layers are first buffered, then rasterized and overlaid to compute the confusion matrix. The confusion matrix is saved as a text file containing the errors of omission and commission. 
+version=0.1
+author=Sophie Crommelinck
+email=s.crommelinck@utwente.nl
+
+about=This plugin supports line-based accuracy assessment by comparing two line layers. Both layers are first buffered, then rasterized and overlaid to compute the confusion matrix. The confusion matrix is saved as a text file containing the errors of omission and commission.
+
+tracker=https://github.com/SCrommelinck/LineComparison/issues
+repository= https://github.com/SCrommelinck/LineComparison
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python accuracy assessment
+
+homepage=https://its4land.com/
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+

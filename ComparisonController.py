@@ -2,13 +2,16 @@
 !/bin/python
 -*- coding: utf-8 -*-
 /*****************************************************************************
+ LineComparison
+                                 A QGIS plugin
+                              -------------------
         begin                : 2018-08-01
         copyright            : (C) 2019 by Sophie Crommelinck, 
                                 University of Twente
         email                : s.crommelinck@utwente.nl
         description          : LineComparison QGIS plugin.
                                 This plugin supports line-based accuracy 
-                                assessment by comparing two line layers.                              
+                                assessment by comparing two line layers. 
         funding              : H2020 EU project its4land 
                                 (#687826, its4land.com)
                                 Work package 5: Automate It

@@ -6,9 +6,9 @@
         copyright            : (C) 2019 by Sophie Crommelinck, 
                                 University of Twente
         email                : s.crommelinck@utwente.nl
-        description          : this script takes probabilities of image tiles
-                                averages them based on its ID value and writes
-                                this value to the corresponding line feature.
+        description          : LineComparison QGIS plugin.
+                                This plugin supports line-based accuracy 
+                                assessment by comparing two line layers.                              
         funding              : H2020 EU project its4land 
                                 (#687826, its4land.com)
                                 Work package 5: Automate It
